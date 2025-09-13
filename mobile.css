@@ -1,0 +1,133 @@
+@media screen and (max-width:767px){
+   
+   .hi{
+    display: none;
+   }
+    .one{
+        line-height: normal;
+        
+    }
+    .first{
+        /* width: 105vw; */
+        overflow: hidden;
+        /* border: 5px solid red; */
+    }
+    .second{
+        /* width: 110vw; */
+    }
+    .cd {
+        width: 90vw;
+    }
+    .one button:hover{
+        scale: 0.9;
+    }
+    .one #um{
+        font-size: 3rem;
+    
+    }
+    .two img{
+        height: clamp(400px,2vh,80vh);
+        margin-top: 5rem;
+    }
+    footer{
+        background-color:black;
+        color: white;
+         height:clamp(20px,110vh,130vh)
+         
+        /* border: 5px solid red; */
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        background-color: black;
+    }
+    .cd2{
+        margin-left: 2px;
+        list-style: none;
+        /* position: relative; */
+        /* border: 5px solid red; */
+        right: 10rem;
+    }
+    .cd2 li{
+        list-style: none;
+    }
+    .first2{
+        color: white;
+        margin-left: auto;
+       
+    }
+    /* hamburger
+     */
+     .sidenav{
+        width: 100%;
+        /* border: 5px solid red; */
+        z-index: 999;
+      
+        
+     }
+     .hidden{
+        display: none;
+        position:relative;
+        background-color: black;
+        border-radius: 2px;
+        color: white;
+        width: 100%;
+        
+    
+    
+     }
+     .humber i{
+       /* border: 5 px green; */
+       font-weight: bolder;
+       cursor: pointer;
+       color: red;
+       display: flex;
+         justify-content: flex-end;
+         font-size: 2rem;
+       
+     }
+     .logo{
+        /* display: none; */
+        position: absolute;
+    
+        
+     }
+     .sh{
+        display: flex;
+        /* border: 5px solid cyan; */
+        justify-content: space-between;
+     }
+     .show ul a{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+     }
+     
+     #cross{
+        /* margin-right: 5px; */
+        padding-right:30px;
+        font-size: 1.2rem;
+        cursor: pointer;
+     }
+     .show{
+        display: none;
+     }
+  .control2 iframe{
+    width: 100%;
+  }
+  .control2 .photo2{
+    width: 100%;
+
+  }
+  .control2{
+    margin-top: 2rem;
+    /* gap: 10px; */
+  }
+  .contex2 p{
+    font-size: 1rem;
+}
+    }
+   

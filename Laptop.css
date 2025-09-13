@@ -1,0 +1,92 @@
+@media screen and (min-width:768px){
+    .two img{
+        
+        margin-top: 0px;
+        
+    }
+  
+    .foot{
+        display: flex;
+         /* flex-wrap: wrap; */
+    }
+    .first2{
+        /* border: 5px solid red; */
+        color: black;
+    }
+    .show{
+        display: none;
+    }
+    .show ul{
+        display: none;
+    }
+    .sh{
+        display: none;
+    }
+    .humber{
+        display: none;
+        
+    }
+    .rd i{
+        display: none;
+    }
+    .hidden{
+        display: none;
+
+    }
+   
+         .contex{
+            display: flex;
+             flex-direction: column; 
+             align-items: center; }
+             .contex p{
+                font-size: clamp(1px,2rem,1.3rem);
+            }
+            .contex h1{
+                font-size: 3rem;
+                 }
+                 .control2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+                    margin-top: 3rem;
+                }
+                .control2 iframe{
+                    width: 100%;
+                    height: 100%;
+                  }
+                  .control2 .photo2{
+                    /* width: 30vw;
+                    max-height: 80vh; */
+                    width: 50%;
+                    height: 50vh;
+                  }
+                  .contex2{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:center;
+                    align-items: center;
+                   /* padding-left: 20px; */
+                    width: 50%;
+                    height: 50vh;
+                    margin-right: left;
+                  }
+                  .form1{
+                    /* width: 30vw; */
+                    border: none;
+                    border-radius: none;
+                    box-shadow: none; 
+                  }
+                  .image img{
+                    width:25vw;
+                    /* overflow: hidden; */
+                }
+                .loader {
+                    position: relative;
+                    width: 120px;
+                    height: 90px;
+                    margin-top: 40vh;
+                    left: 45vw;
+                    
+                  }
+    }

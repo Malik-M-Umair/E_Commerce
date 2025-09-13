@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="Laptop.css">
+    <link rel="shortcut icon" href="https://www.logomaker.com/api/main/images/1j+ojlxEOMkX9Wyqfhe43D6kh...6HrRFMkR...EwXs1M3EMoAJtlyMkgPBv9vo8PExevg9C3ktKMcs8" type="image/x-icon">
+</head>
+<body oncontextmenu="return false">
+    <!-- From Uiverse.io by alexruix --> 
+<div class="loader" id="spin" ></div>
+    <div id="bodyhider">
+
+        <header>
+            <div class="logo " onclick="window.location.reload()">Shoop</div>
+        <nav class="hi">
+            <ul>
+                <a onclick="goBack()">Home</a>
+                <a href="#men" onclick="shope(this)">Shop</a>
+                <a onclick="blog()">Blog</a>
+                <a onclick="about()">About</a>
+                <a onclick="contact()">Contact</a>
+            </ul>
+        </nav>
+        <div class="sidenav">
+            <span class="humber rd" id="3dots" onclick="changer()">
+                
+                <i class='bx bx-menu' cart-hd></i>
+            </span>
+            <div class="hidden">
+
+                <span class="sh" id="sh">
+                    <h1 style="color: orangered;">Shoop</h1>
+                    
+                <span id="cross" onclick="changer2()">
+                    <h1>&times;</h1></span>
+            </span>
+            <nav class="show">
+                <ul>
+                    <a onclick="goBack()">Home</a>
+                    <a href="#men" onclick="shope()">Shop</a>
+                    <a onclick="blog()" href="#blogs">Blog</a>
+                    <a onclick="about()">About</a>
+                    <a onclick="contact()">Contact</a>
+                    
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <div class="first" id="first">
+        <div class="one">
+           
+            <h1 id="um">Super Value Details</h1>
+            <h1 id="un">On all Products!</h1>
+            <p >Shop smart with Shoop<br> where men's and women's <br>fashion meets quality and style!<br>Explore the latest trends at Shoop.</p>
+            <button><a href="#men">Explore</a></button>
+        </div>
+        <div class="two">
+            <img src="https://i.pinimg.com/736x/be/31/01/be3101db428ed2cc04dcd19449849ba8.jpg" alt="T-shirt" loading="lazy">
+        </div>
+
+    </div>
+    <div class="heading2" id="men">
+        <h1 style="color: orangered;">Men's Wear<b style="color:black;"> Trends</b></h1>
+    </div>
+    <div class="second"
+    >
+        <div class="cd mg">
+            <img src="mens 1.png" alt="" onclick="showimage(this)" loading="lazy"><br>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star-half' onclick="color(event)" id="openModal"></i><br>
+            
+            <button onclick=" showimageFromButton(this)"><a> Add To Cart</a></button>
+
+        </div>
+        <div class="cd">
+            <img src="mens 3.png" alt="" onclick="showimage(this)" loading="lazy"><br>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star-half' onclick="color(event)" id="openModal"></i>
+            <i class='bx bxs-star-half' onclick="color(event)" id="openModal"></i><br>
+            <button onclick=" showimageFromButton(this)"><a> Add To Cart</a></button>
+
+        </div>
+        <div class="cd mg">
+            <img src="mens 2.png" alt="" onclick="showimage(this)" loading="lazy"><br>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star-half' onclick="color(event)" id="openModal"></i><br>
+            <button  onclick=" showimageFromButton(this)"><a> Add To Cart</a></button>
+
+        </div>
+      
+        
+        
+    </div>
+    <div class="heading2">
+        <h1 style="color: orangered;">Women's Wear<b style="color:black;"> Trends</b></h1>
+    </div>
+    <div class="second">
+        <div class="cd mg">
+            <img src="women1 (1).jpg" alt="" onclick="showimage(this)" loading="lazy"><br>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star-half' onclick="color(event)" id="openModal"></i><br>
+            
+            <button  onclick=" showimageFromButton(this)"><a> Add To Cart</a></button>
+            
+        </div>
+        <div class="cd">
+            <img src="women 2.png" alt="" onclick="showimage(this)" loading="lazy"><br>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star-half' onclick="color(event)" id="openModal"></i>
+            <i class='bx bxs-star-half' onclick="color(event)" id="openModal"></i><br>
+            <button  onclick=" showimageFromButton(this)"><a> Add To Cart</a></button>
+
+        </div>
+        <div class="cd mg">
+            <img src="women1 (2).jpg" alt="" onclick="showimage(this)" loading="lazy"><br>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star' id="rat"></i>
+            <i class='bx bxs-star-half' onclick="color(event)" id="openModal"></i><br>
+            <button  onclick=" showimageFromButton(this)"><a> Add To Cart</a></button>
+
+        </div>
+        
+        
+        
+    </div>
+    <div class="heading2" id="blogs">
+        <h1 style="color: orangered;">Top Blog'<b style="color:black;"> Trends</b></h1>
+    </div>
+    <div class="second">
+        <div class="cd mg bu">
+            <img src="mens 1.png" alt="" loading="lazy"><br>
+            <h1>Trending Boys Cloths</h1>
+            <p><b>Boys' clothing includes oversized<br> t-shirts, cargo pants, and<br>streetwear  with chunky sneakers.</b></p>
+            
+            
+            <button><a href="https://www.apetogentleman.com/"> Read More</a></button>
+
+        </div>
+        <div class="cd mg bu">
+            <img src="women1 (1).jpg" alt="" loading="lazy"><br>
+          <h1>Trending Girl Cloths</h1>
+            <p><b>Trending girls' clothing includes<br> oversized sweaters, wide-leg jeans,<br> and stylish crop tops paired with chunky sneakers.</b></p>
+            
+            
+            <button><a href="https://www.apetogentleman.com/"> Read More</a></button>
+
+        </div>
+        
+    </div>
+   
+    
+    <!-- aboutus
+    -->
+    <div id="aboutcont" hidden="true">
+        
+        <div class="heading3" >
+            <h1>About Us</h1>
+            <p>We are committed to delivering top-quality products with a seamless and secure shopping experience.</p>
+        </div>
+        <div class="control">
+            <div class="photo">
+                <img src="About us page-pana.png" alt="photo" loading="lazy">
+            </div>
+            <div class="contex">
+                <h1 style="color: orangered;">Who we are?</h1>
+                <p>We are a trusted eCommerce platform dedicated to providing high-quality products at the best prices. Our mission is to ensure a seamless shopping experience with reliable service and customer satisfaction.</p>
+            </div>
+        </div>
+    </div>
+    <div id="Connect" hidden="true">
+
+        <div class="heading3" >
+            <h1>Lets Connect</h1>
+            <p>Stay in touch with us for the latest updates, exclusive offers, and seamless support anytime.</p>
+        </div>
+        <div class="control2">
+            <div class="contex2">
+                <h1 style="color: orangered;">Visit Our Office or Contact Us Today</h1>
+            <p><b>Address:</b>Saddar</p>
+            <p><b>Mail:</b>malikMuhammadUmair6@gmail.com</p>
+            <p><b>Number:</b>03231538572</p>
+        </div>
+        <div class="photo2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13293.539924883617!2d73.04122019452855!3d33.59531429696306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df94834d87f5a3%3A0x506e17bedd22f2e7!2sSaddar%2C%20Rawalpindi%2C%20Punjab%2046000%2C%20Pakistan!5e0!3m2!1sen!2s!4v1739487903781!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="form1" >
+
+        <form id="contactForm">
+            <h1><b style="color: orangered;">Connect with</b> Us</h1>
+            <input type="text" required placeholder="Enter Your FirstName"><br>
+            <input type="text" required placeholder="Enter Your LastName"><br>
+            <input type="email" required placeholder="Enter Your Email"><br>
+            <input type="text" required placeholder="Enter Your Address"><br>
+            <button type="submit" id="model">Submit</button>
+        </form>
+    </div>
+</div>
+<!-- add to Cart -->
+<div class="infocont" id="infocon" >
+
+    <div class="image">
+        <img src="mens 1.png" alt="" id="newimage" loading="lazy">
+    </div>
+    <div class="info">
+        <h2>Trends Offer: Trending Shop Now</h2>
+        
+        <h3>Special Price</h3>
+        <h2>Rs.2500</h2>
+    
+        <p> Elevate your style with the latest fashion trends.</p>
+    <p> Stay ahead with outfits that define your personality.</p>
+    <p> Walk with confidence, dress with elegance.</p>
+    
+    <button class="btn buy-btn" id="modal4">Buy Now</button>
+    <button class="btn cart-btn" id="modal3">Add To Cart 🛒</button>
+    <br>
+    <button class="btn back-btn" onclick="goBack()">Back</button>
+</div>
+</div>
+<!-- dialog box
+  -->
+  <dialog id="myModal">
+    <h1>Thanks for your feedback!☺</h1>
+    <p>Your feedback has been saved.</p>
+    <button id="closeModal">Close</button>
+    
+</dialog>
+<dialog id="myModal2">
+    <h1>We Recorded Your Info!</h1>
+    <p>Soon We Will Approch You.</p>
+    <button id="closeModal2">Close</button>
+    
+</dialog>
+<dialog id="myModal3">
+    <h1>Successfully Added to Cart!<b>🛒</b></h1>
+    <p>Buy Something! </p>
+    <button id="closeModal3">Close </button>
+</dialog>
+<dialog id="myModal6">
+    <h1>Thanks for Shopping From Here!<b>🙂</b></h1>
+    <p>After Couple of Minutes You Can Track Your Order.</p>
+    <button id="closeModal6">Close </button>
+</dialog>
+<dialog id="myModal7">
+    <h1>Incorrect or Expired Coupon<b>⌛</b></h1>
+    <p>Use the Correct Coupon or Wait for New One.</p>
+    <button id="closeModal7">Close </button>
+</dialog>
+<dialog id="myModal4">
+    <div class="payment-form" >
+        <form id="paymentForm">
+            <h1>Payment Information</h1>
+            <input type="text" required placeholder="Enter Your Name" id="nameInput"><br>
+            <!-- <input type="text" required placeholder="Enter Your Last Name" id="lastNameInput"><br> -->
+            <input type="text" required placeholder="Enter Your Address" id="addressInput"><br>
+            <input type="text" required placeholder="Enter Card Number" id="addressInput"><br>
+    
+            <select required id="paymentMethod">
+                <option value="" disabled selected>Select Payment Method</option>
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card" >Debit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="cash-on-delivery">Cash on Delivery</option>
+            </select><br>
+    
+            <button type="submit" id="modal5">Submit</button>
+        </form>
+        
+        </div>
+        
+    <button id="closeModal4">Close </button>
+    </dialog>
+    <dialog id="myModal5">
+       <!-- From Uiverse.io by mi-series --> 
+<div class="container">
+    <div class="card cart">
+      <label class="title" >CHECKOUT</label>
+      <div class="steps">
+        <div class="step">
+          <div>
+            <span>Delivery From</span>
+            <p>Saddar</p>
+            <p>Pakistan, Rawalpindi</p>
+          </div>
+          <hr>
+          <div>
+            <span>PAYMENT METHOD</span>
+            <p>Card</p>
+            <p>On Delivery</p>
+            
+            <p>**** **** **** 4243</p>
+          </div>
+          <hr>
+          <div class="promo">
+            <span>Apply Coupon...</span>
+            <form class="form" id="form9">
+              <input class="input_field" placeholder="Apply Coupons!" type="text">
+              <button id="modal7" >Apply</button>
+            </form>
+          </div>
+          <hr>
+          <div class="payments">
+            <span>PAYMENT</span>
+            <div class="details">
+              <span>Subtotal:</span>
+              <span>Rs.2500.00</span>
+              <span>Shipping:</span>
+              <span>Rs.100.00</span>
+              <span>Tax:</span>
+              <span>RS30.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="card checkout">
+      <div class="footer">
+        <label class="price">Rs2630.00</label>
+        <button class="checkout-btn" id="modal6">Checkout</button>
+      </div>
+    </div>
+  </div>
+        <button id="closeModal5">Close </button>
+    </dialog>
+    <footer>
+    <a href="#" class="first2">Questions? Contact us.</a>
+        <div class="foot">
+            <div class="cd2">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Speed Test</a></li>
+                </ul>
+            </div>
+            <div class="cd2">
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Roles</a></li>
+                    <li><a href="#">Cookie Preferences</a></li>
+                    <li><a href="#">Legal Notices</a></li>
+                </ul>
+            </div>
+            <div class="cd2">
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Ways to Use</a></li>
+                    <li><a href="#">Only on Shoop</a></li>
+                    <li><a href="#">Created by Malik Umair</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </footer>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
