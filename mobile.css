@@ -21,6 +21,12 @@
     .one button:hover{
         scale: 0.9;
     }
+        .cn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 2rem;
+     }
     .one #um{
         font-size: 3rem;
     
@@ -131,3 +137,4 @@
 }
     }
    
+
